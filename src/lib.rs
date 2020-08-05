@@ -616,8 +616,8 @@ impl Renderer {
             SrcBlend: D3D11_BLEND_SRC_ALPHA,
             DestBlend: D3D11_BLEND_INV_SRC_ALPHA,
             BlendOp: D3D11_BLEND_OP_ADD,
-            SrcBlendAlpha: D3D11_BLEND_INV_SRC_ALPHA,
-            DestBlendAlpha: D3D11_BLEND_ZERO,
+            SrcBlendAlpha: D3D11_BLEND_INV_DEST_ALPHA,
+            DestBlendAlpha: D3D11_BLEND_ONE,
             BlendOpAlpha: D3D11_BLEND_OP_ADD,
             RenderTargetWriteMask: D3D11_COLOR_WRITE_ENABLE_ALL as u8,
         };
