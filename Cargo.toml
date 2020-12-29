@@ -13,12 +13,12 @@ categories = ["gui", "rendering"]
 [dependencies]
 winapi = { version = "0.3", features = ["d3d11", "d3dcompiler", "dxgitype", "dxgi", "windef"] }
 wio = "0.2"
-imgui = "0.5"
+imgui = "0.6"
 
 [dev-dependencies]
-imgui = "0.5"
-imgui-winit-support = "0.5"
-winit = "0.22"
+imgui = "0.6"
+imgui-winit-support = "0.6"
+winit = "0.24"
 raw-window-handle = "0.3"
 
 [package.metadata.docs.rs]
